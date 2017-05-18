@@ -12,6 +12,7 @@ func main() {
 	var f = 7.0
 	fmt.Printf("str1 = %T, str2 = %T, int1 val = %d, str val = %s, f = %T\n", str1, str2, int1, str, f)
 	fmt.Println(con)
+	fmt.Printf("%T", con)
 	//con = 16 // Cannot assign to const
 	//fmt.Println(con)
 }
